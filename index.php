@@ -11,7 +11,7 @@ if (!empty($_GET['url'])) {
 	header("Location: ".$redirect);  
 }
  
-if ($_POST['url']) {
+if (isset($_POST['url'])) {
 
  
 $short = substr(str_shuffle('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'), 0, 5);
@@ -41,7 +41,7 @@ header('Location: '.$redirect); die;
  
 </head>
 
-<body>
+<body style="text-align: center;;">
 
 
 <h1> enter the URL</h1>
