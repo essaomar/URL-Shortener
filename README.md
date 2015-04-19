@@ -4,7 +4,7 @@ small URL shorting script based on php.
 the front-end i used url shorting provider bitly.com site to give the same feeling,
 but you can change the front site to whatever you want.
 i call it fitly, the demo link
-http://www.creativevalley.co/url/
+http://www.creativevalley.co/url
 
 Installation
 
