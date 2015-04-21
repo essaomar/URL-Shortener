@@ -2,7 +2,7 @@
 
 //mysql db connection information
 $hostname = "localhost"; //host
-$database = "urldb"; //database
+$database = "url"; //database
 $username = "root"; //username for your database
 $password = ""; //password for your database
 
